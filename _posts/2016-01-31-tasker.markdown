@@ -1,0 +1,23 @@
+---
+layout: post
+title: Tasker Appendix
+modified: 2016-01-31T23:42:34+05:30
+categories: tasker
+excerpt: "Some handy tasker tips"
+tags: [ tasker, autoinput, autonotifications, auto apps, secure settings]
+comments: true
+date: 2016-01-31T23:42:34+05:30
+---
+
+I've been spending a lot of time trying to automate some of the more annoying mundane tasks on my phone using Tasker and the Auto Apps suite of late which has led to the cumulation of a body of knowledge which is relatively hard to find; and in an attempt to give back to society *coughs*, here are some handy tricks. (posts coming soon)
+
+- Running AutoInput when the screen is off.
+- Daily backups using Titanium Backup free version. (buy the full version and support the developer).
+- Getting Google Play to speak out the artist name when the headset is plugged in.
+- On Boot Accessibility Jobs.
+- SMS activated lock screen.
+
+Until the next post.
+
+
+
