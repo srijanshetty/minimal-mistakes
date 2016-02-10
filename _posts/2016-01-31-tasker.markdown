@@ -16,6 +16,7 @@ I've been spending a lot of time trying to automate some of the more annoying mu
 - Getting Google Play to speak out the artist name when the headset is plugged in.
 - On Boot Accessibility Jobs.
 - SMS activated lock screen.
+- Playing YouTube videos in background.
 
 Until the next post.
 
