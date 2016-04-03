@@ -24,7 +24,6 @@ Ever since then, I try to talk in third person and paint a larger than life pict
 I fancy myself as a Pan-Indian. My parents are from the South, this allows me to be an elitist South Indian,
 doling out free advice (being an IITian is the icing on the cake). Being brought up in North India allows me
 to enjoy Yo Yo Honey Singh without any baggage.<br/><br/>
-Oh, and I like running - in theory and cracking nerd jokes; and travelling. (Be warned, self-aggrandization ahead!)<br>
-<iframe src="https://www.google.com/maps/d/embed?mid=zvNcxTZhLouM.kio--AUrkzfo" width="640" height="480"></iframe><br>
+Oh, and I like running - in theory and cracking nerd jokes; and travelling.<br>
 My handle is srijanshetty on most sites. You **should** follow me on <a href="https://github.com/srijanshetty">GitHub</a>.<br/><br/>
 
