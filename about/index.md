@@ -10,10 +10,10 @@ image:
   creditlink: http://srijanshetty.in
 ---
 
-I'm Srijan R. Shetty, a senior undergraduate at the <a href="http://cse.iitk.ac.in">Department of Computer
+I'm Srijan R. Shetty, an undergraduate from the <a href="http://cse.iitk.ac.in">Department of Computer
 Science and Engineering</a>,<a href="http://iitk.ac.in">Indian Institute of Technology, Kanpur</a>. I'm humbled
 that you consider my introduction worthy of your valuable time.<br/><br/>
-I'm an eccentric who likes to <a href="#">scribble</a> and <a href="https://github.com/srijanshety">hack on</a> things
+I'm an eccentric who likes to <a href="#">scribble</a> and <a href="https://github.com/srijanshetty">hack on</a> things
 (note the 'on'). I like writing poems, the occasional <a href="https://srijanshetty.quora.com/Open-letter-to-the-Senators">
 open letters in the wild</a> and public rants.<br/><br/>
 I was <a href="https://www.facebook.com/photo.php?fbid=464046796623&set=t.100000238480290&type=3&theater">fat</a>
