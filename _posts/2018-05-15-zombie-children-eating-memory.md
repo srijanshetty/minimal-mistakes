@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Zombie Children Eating Memory"
-modified:
+modified: 2018-05-16T00:24:38+05:30
 categories: technical
 excerpt: If you're not careful, your children can turn into zombies and eat your server
 tags: [linux, python, psutil. os, zombie, orphan, process, memory, subprocess, child, wait, pid]
@@ -37,15 +37,15 @@ try:
     p = psutil.Process(pid)
     p.terminate()
     p.wait(timeout=45)
-    msg = 'Wow. your children are really obedient'
+    msg = "Wow. your children are really obedient"
 except psutil.TimeoutExpired:
     # For a bad process this will ensure that we send it a sigkill
     p.send_signal(signal.SIGKILL)
     try:
         p.wait(timeout=10)
-        msg = 'Close call, we need the big guns, but at least they're dead now'
+        msg = "Close call, we need the big guns, but at least they're dead now"
     except psutil.TimeoutExpired:
-        msg = 'Zombie children have escaped. I repeat zombie children have escaped'
+        msg = "Zombies have escaped. I repeat, zombies have escaped"
 {% endhighlight %}
 
 Let me explain what's going on here. The first *terminate* sends a **SIGTERM** to the child and then we
