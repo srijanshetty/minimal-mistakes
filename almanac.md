@@ -12,8 +12,6 @@ comments: true
 I was introduced to the world of open source in college and I've never looked back.
 Here's a list of some tools I can't live without:
 
-- [antigen-hs](https://github.com/srijanshetty/antigen-hs): as git-submodules are a nightmare.
-- [pushbullet](https://pushbullet.com): universal copy paste across devices, need I say more?
 - [fzf](https://github.com/junegunn/fzf): generic commandline fuzzyfinder.
 - [tmux](https://github.com/srijanshetty/vcsh-tmux): terminal multiplexer.
 - [vcsh and mr](/technical/vcsh-mr-dotfiles-nirvana/): dotfiles nirvana.
@@ -24,36 +22,22 @@ Here's a list of some tools I can't live without:
 I'm an obsessive compulsive, and I've dedicated my life to sorting my <strike>shit</strike>  media.
 
 - [anki](http://ankisrs.net/): powerful, intelligent flashcards.
-- [beets](beets.readthedocs.org): the music geek's media organizer.
-- [boom](http://zachholman.com/boom/): bookmarks on the command line.
-- [geeknote](http://www.geeknote.me/): cross-platform command line *Evernote* client.
 - git: as Torvalds says *source control as the way it should be*.
-- [git-annex](https://git-annex.branchable.com/): for everything else.
 - [google photos](https://photos.google.com): Google scored a homerun with this one.
-- [hypothes.is](https://hypothes.is): annotate the web
-- [ledger](http://www.ledger-cli.org/): powerful, double-entry accounting system.
-- [memo](http://www.getmemo.org/): commandline note-taking.
-- [snips](https://github.com/srijanshetty/snips): commandline snippets.
-
-**Miscellaneous**<br/><br/>
-An assorted list of other utilities that come in handy.
-
-- [btsync](http://www.getsync.com/download): BitTorrent Sync.
-- [vagrant](https://vagrantup.com): Reproducible dev environments.
+- [walnut](http://www.getwalnut.com/): powerful, expense tracking app.
 - [zathura](https://pwmt.org/projects/zathura/): PDF Viewer.
 
 ## Media
 
-Until I make a better section, [Trakt.tv](http://trakt.tv/users/srijanshetty) and [LastFM](http://www.last.fm/user/srijanshetty/tracks).
+Until I make a better section, [Trakt.tv](http://trakt.tv/users/srijanshetty).
 
 ## Books
 I've only recently started tracking the books on [goodreads](https://www.goodreads.com/srijanshetty) which I've read or I intend to read; and through this endeavour, I've come to the arguably depressing conclusion that I don't read as much I'd like to. I've decided not to burden myself with realization and find solace in the fact that I consume a lot of blogs daily.<br><br>
 **RSS**<br>
-I read RSS on [Digg](digg.com/reader) (for-it-matters-which-RSS-reader-you-use).<br><br>
+I read RSS on [Inoreader](http://inoreader.com/) (for-it-matters-which-RSS-reader-you-use).<br><br>
 **Hypothes.is**<br>
-I'm trying to do my bit in organizing the vast expanses of the internet using [hypothes.is](hypothes.is). You can access my annotation stream [here](hpothes.is/stream?=user:srijanshetty). It contains all articles that I found to be interesting.<br><br>
-**Lectures & Papers**<br>
-[Lectures](https://github.com/srijanshetty/lectures) and [Research Papers](https://github.com/srijanshetty/papers), that I found to be insightful.
+**Papers**<br>
+[Research Papers](https://github.com/srijanshetty/papers), that I found to be insightful an eon ago.
 
 ## Talks
 Those 'Aha' talks:
