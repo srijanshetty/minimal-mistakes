@@ -2,7 +2,7 @@
 layout: page
 title: "Almanac"
 date: Fri Jan  2 15:12:28 IST 2015
-modified: Tue Jun  2 15:10:09 IST 2015
+modified: Wed May 16 10:32:09 IST 2015
 excerpt: My Almanac - the music, software, movies that I love
 tags: [music, movies, software, media, recommendations]
 comments: true
@@ -35,7 +35,6 @@ Until I make a better section, [Trakt.tv](http://trakt.tv/users/srijanshetty).
 I've only recently started tracking the books on [goodreads](https://www.goodreads.com/srijanshetty) which I've read or I intend to read; and through this endeavour, I've come to the arguably depressing conclusion that I don't read as much I'd like to. I've decided not to burden myself with realization and find solace in the fact that I consume a lot of blogs daily.<br><br>
 **RSS**<br>
 I read RSS on [Inoreader](http://inoreader.com/) (for-it-matters-which-RSS-reader-you-use).<br><br>
-**Hypothes.is**<br>
 **Papers**<br>
 [Research Papers](https://github.com/srijanshetty/papers), that I found to be insightful an eon ago.
 
