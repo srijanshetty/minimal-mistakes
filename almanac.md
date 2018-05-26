@@ -12,7 +12,6 @@ comments: true
 I was introduced to the world of open source in college and I've never looked back.
 Here's a list of some tools I can't live without:
 
-- [fzf](https://github.com/junegunn/fzf): generic commandline fuzzyfinder.
 - [tmux](https://github.com/srijanshetty/vcsh-tmux): terminal multiplexer.
 - [vcsh and mr](/technical/vcsh-mr-dotfiles-nirvana/): dotfiles nirvana.
 - [vim](https://github.com/srijanshetty/vim-plug/): cause every other editor feels half baked.
