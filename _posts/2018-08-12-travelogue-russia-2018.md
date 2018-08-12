@@ -3,8 +3,8 @@ layout: post
 title: "Travelogue - Russia, 2018"
 modified:
 categories: travelogue
-excerpt:
-tags: [russia, fifa, worldcup, football, belgium, france, croatia, england]
+excerpt: "The land of the white night and many colors"
+tags: [russia, fifa, worldcup, football, belgium, france, croatia, england, whitenight]
 image:
   feature: kazan_2018.jpg
 comments: true
