@@ -6,7 +6,7 @@ categories: travelogue
 excerpt:
 tags: [russia, fifa, worldcup, football, belgium, france, croatia, england]
 image:
-  feature: kazan_2018.jg
+  feature: kazan_2018.jpg
 comments: true
 date: 2018-08-12T20:39:01+05:30
 ---
