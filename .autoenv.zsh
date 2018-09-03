@@ -1,2 +1,2 @@
-rvm use 'ruby-2.1.10'
+rvm use 'ruby-2.2.10'
 nvm use stable
