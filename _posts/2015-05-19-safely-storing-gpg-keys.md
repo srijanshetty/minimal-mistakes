@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Safely Storing GPG Keys"
-modified: Sat May 23 17:24:35 IST 2015
+modified: Mon Sept 4 01:50:35 IST 2018
 categories: technical
 excerpt: An easy way to store GPG Keys
 tags: [blackbox, encryption, security, GPG]
@@ -74,3 +74,29 @@ $ cp gpgkeys/*.gpg ~/.gnupg/
 $ gpg --import-ownertrust srijanshetty-ownertrust-gpg.txt
 
 {%endhighlight%}
+
+**Update**: Three years down the line and this still proves to be an effective solution.
+The only issue has been incompatibilities between openssl library which leads to the
+following error in Ubuntu 18.04:
+
+{% highlight bash %}
+
+# decypt and base64 decode
+$ openssl aes-256-cbc -d -in gpgkeys.tar.gz.enc -out gpgkeys.tar.gz -a
+enter aes-256-cbc decryption password:
+bad decrypt
+<number>:error:<number>:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt:../crypto/evp/evp_enc.c:536:
+
+{%endhighlight%}
+
+After going down the rabbit hole of the internet, the solution is a simple addition of a md5
+flag on the decryption encantation as follows:
+
+{% highlight bash %}
+
+# decypt and base64 decode
+$ openssl aes-256-cbc -d -in gpgkeys.tar.gz.enc -out gpgkeys.tar.gz -a -md md5
+
+{%endhighlight%}
+
+
