@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Safely Storing GPG Keys"
-modified: Mon Sept 4 01:50:35 IST 2018
+modified: Mon Sept 10 15:02:35 IST 2019
 categories: technical
 excerpt: An easy way to store GPG Keys
-tags: [blackbox, encryption, security, GPG]
+tags: [blackbox, encryption, security, GPG, openssl, aes, update, 2019, store, secure]
 image:
   feature:
 date: Sat May 23 16:59:33 IST 2015
@@ -53,7 +53,7 @@ $ gpg --export-ownertrust > gpgkeys/srijanshetty-ownertrust-gpg.txt
 $ tar cvzf gpgkeys.tar.gz gpgkeys
 
 # encrypt and base64 encode
-$ openssl aes-256-cbc -in gpgkeys.tar.gz -out gpgkeys.tar.gz.enc -a
+$ openssl aes-256-cbc -in gpgkeys.tar.gz -out gpgkeys.tar.gz.enc -a -md sha512 -pbkdf2 -iter 1000 -salt --base64
 
 {%endhighlight%}
 
@@ -62,7 +62,7 @@ $ openssl aes-256-cbc -in gpgkeys.tar.gz -out gpgkeys.tar.gz.enc -a
 {% highlight bash %}
 
 # decypt and base64 decode
-$ openssl aes-256-cbc -d -in gpgkeys.tar.gz.enc -out gpgkeys.tar.gz -a
+$ openssl aes-256-cbc -d -in gpgkeys.tar.gz.enc -out gpgkeys.tar.gz -a -md sha512 -pbkdf2 -iter 1000 -salt --base64
 
 # untar
 $ tar xvzf gpgkeys.tar.gz.enc
@@ -81,6 +81,9 @@ following error in Ubuntu 18.04:
 
 {% highlight bash %}
 
+# encrpyt and base64 decode (Used in the previous version)
+$ openssl aes-256-cbc -in gpgkeys.tar.gz -out gpgkeys.tar.gz.enc -a
+
 # decypt and base64 decode
 $ openssl aes-256-cbc -d -in gpgkeys.tar.gz.enc -out gpgkeys.tar.gz -a
 enter aes-256-cbc decryption password:
@@ -98,5 +101,3 @@ flag on the decryption encantation as follows:
 $ openssl aes-256-cbc -d -in gpgkeys.tar.gz.enc -out gpgkeys.tar.gz -a -md md5
 
 {%endhighlight%}
-
-
