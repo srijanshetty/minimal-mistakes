@@ -4,75 +4,49 @@ https://keybase.io/srijanshetty
 
 I hereby claim:
 
-  * I am an admin of http://srijanshetty.in
+  * I am an admin of https://srijanshetty.in
   * I am srijanshetty (https://keybase.io/srijanshetty) on keybase.
-  * I have a public key with fingerprint E7E9 CDF9 65B1 46AD FD16  93CB 41F0 94B3 4373 A32F
+  * I have a public key ASBp2Y-KsbCsRcnWRk-J2dX68fY1hX6NXsPfnhuobDbC0go
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
-    "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.7.2"
-        },
-        "key": {
-            "fingerprint": "e7e9cdf965b146adfd1693cb41f094b34373a32f",
-            "host": "keybase.io",
-            "key_id": "41F094B34373A32F",
-            "uid": "8e88374ebddf1055dd241fdf790e9700",
-            "username": "srijanshetty"
-        },
-        "merkle_root": {
-            "ctime": 1413308856,
-            "hash": "8ba4fa74a7f0719b306ad377cbc01411dd372f3f05a578b1cac0c44bdd37c2f1edebfc39cad63aece187a58d30a2a306b64f30b6aa4596993ee13d16fdeb92db",
-            "seqno": 78449
-        },
-        "service": {
-            "hostname": "srijanshetty.in",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "012069d98f8ab1b0ac45c9d6464f89d9d5faf1f635857e8d5ec3df9e1ba86c36c2d20a",
+      "host": "keybase.io",
+      "kid": "012069d98f8ab1b0ac45c9d6464f89d9d5faf1f635857e8d5ec3df9e1ba86c36c2d20a",
+      "uid": "8e88374ebddf1055dd241fdf790e9700",
+      "username": "srijanshetty"
     },
-    "ctime": 1413309087,
-    "expire_in": 157680000,
-    "prev": "475502200ffa8d9f5c9e4fba108a920668c82bc88b2fc8a4a9e7bd6772613193",
-    "seqno": 4,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1568096413,
+      "hash": "98095cdb99b933cc84439b3d367905dd6aceace358389d8523d8507bfaa42850f37e93002bf1137b47c5d7b4b07ea039da159e3c48fbb0ffde770c311de06bdb",
+      "hash_meta": "a260eae0691de02fff7da808fc1726c6948da1680252ca346a55e199e62e8095",
+      "seqno": 6327809
+    },
+    "service": {
+      "entropy": "8MyP+1cQTg1yaql1P3GoSl0K",
+      "hostname": "srijanshetty.in",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.0"
+  },
+  "ctime": 1568096424,
+  "expire_in": 504576000,
+  "prev": "67bbea0296a1bbddbf4132af605c5eb6738667b202ee82ea08bd5c14b08c92e0",
+  "seqno": 29,
+  "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: GnuPG v1.4.11 (GNU/Linux)
-
-owFtkn9MFnUcxx8eJQKsgCEKc4CHlk58ut8/npAGOGC4oQMhouzxe3ffgwO8g+dO
-eAAJGVTCjEhiyjIQmT82cLmghTOBkVEMAjQtlEE0iyACEXKrSOqO0cqt++u+38/r
-8/583p/Pt+apNRarW9T8e20xWvPzbv3TvGX/Lr6xGOFVsRCxFyNCjgwV3fxTwCGI
-2JFsWMgDDdpkNVRRRWjL0kJXmXAkHzo1WVUMCrUxNhwpCTdxM1mSlQzozHXKphYC
-GcgJosTRFI+RNBAlEaM5QuBJTEI5kidIgiEAgUuGZKaq6Y9VRVY0HbJo3JJYrMFH
-r/BRBB5rxA6vBFjIsgRDQl4UJQylKFHEDW1RYjgUcgyKmqAGnauWNKecBRQtE+p6
-odnzIejMzoEOp6quGBd02cQwEiMIlGUp2ugKaJlmGR6QEmBIwEgog3E8gRpmCIYR
-eAE1cEw0DrhESCgFKIblMQEIqECSvHkv4BIGRchLAsEJQKQJAAWIsQygWJFAAQ4M
-MZ4mJQLlaQBIiqM5joAQI4xZSUYeh4u8YUODeYqK2BmWJLkS8+jMlwVotm1O7n8M
-2mTFSMt1qroqqDlGMFPXc+2mbb0wFyJtdqQA8o5VHQcvK6Kxuv/uFjPQx0bCoSwT
-jkBXruyEDtkkKIZmUeMz68B8c1EMRaE4jqKSBFiRkyiBg6TEAwxlAYejNM0KLM4L
-LMvjksACEnCQ4UWaYXAaIzCO+NcoafQJMkxPcoYC9MNOiJRUWjettbhZLU+4W83H
-a/Hy9PnnRc+99cxfrpmUW5EvjRa1yOc+W7yITj0bdT5a6dcOPBJa1O8mhyvH3j2f
-2N/7ReWOqc6npy7dSh+Ec7Mzt7eORqZtLBprDbbPdxx55R6xoeB0KBMz0bctNWy4
-LK7L4xe/5YMVMGL/NNyxSG56cbboREMnPT7+gvbz26/9OBV6srj+SnJt3DrL1QTr
-3bpyeKbxxkLs+3MfDjb7UR+Xnmwe6HZghbWWP0aurG9NePVGdUhk4LX6yx7JIQnB
-O/cgXpNadXZB5PYary1V6rH6hOnXr7f7J9I/lC1LdW2pMOnlwXfKrntDMTp04kxi
-0omzidMed+p90tYX523DU7Z0d47nbGiaKvcLPBsecOFrvyOfe361ONrc5TP7zSj3
-IN3tyRzvq02jPjdTmZHSGVvNtY7RO3jGnyPizh6tQa1x9//kgwBsSDnX45N6d2/7
-w9+bXIsHW/DkyLGg50IeLDct+d4rxVwDvxX3/TQwtCbodrV3/LF1+6wVrrTEgfL7
-OVqAW5KSlz0ZfCGsuChjIfByXOPF3TH+bct9Hb5f6oKPe2v/8qS+G5urOv1wqUWv
-qu6OsPdmLbccLQxM9fC0eS18y252nHqjrE73PTo3z/RHyv377kPX5tqhU3siwmY7
-ht33djVtn6jbGt+enxL/Zsyu1KY+/fuNXENvxUdsbW/6r5eOB1U8+vTmDNPjtXbJ
-y3qA/Bs=
-=JHb8
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgadmPirGwrEXJ1kZPidnV+vH2NYV+jV7D354bqGw2wtIKp3BheWxvYWTESpcCHcQgZ7vqApahu92/QTKvYFxetnOGZ7IC7oLqCL1cFLCMkuDEIGyzFd92K3C8q0DY6qSR5o9S4n0Tgz9Ik+jwPaQy3DM/AgHCo3NpZ8RA3ujrGkuzk2pHnCtS7vizmwKI5DhD2fGDPwbcLvQutVWRmkubJB2ZOWOPN5gGRxYRYJHzGCgGgIejI7WQCFgYCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOK85A5SWhQM4he4cglCPyiut5bbAcBTPPRMOAo+5EV3o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -80,4 +54,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/srijanshetty
 
 ==================================================================
-
