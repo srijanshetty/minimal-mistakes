@@ -16,6 +16,8 @@
     "deploy": "grunt && jekyll build && grunt deploy"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
     "grunt": "^1.0.4",
     "grunt-contrib-clean": "~0.7.0",
     "grunt-contrib-imagemin": "^3.1.0",
@@ -24,6 +26,15 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-gh-pages": "^3.1.0",
     "grunt-recess": "~1.0.1",
-    "grunt-svgmin": "^6.0.0"
+    "grunt-svgmin": "^6.0.0",
+    "husky": "^3.0.8"
+  },
+  "commitlint": {
+      "extends": [ "@commitlint/config-conventional" ]
+  },
+  "husky": {
+      "hooks": {
+          "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      }
   }
 }
