@@ -3,8 +3,8 @@
 - title: About
   url: /about/
 
-- title: Academics
-  url: /academics.html
+- title: CV
+  url: /cv/
 
 - title: Blog
   url: /posts/
@@ -15,11 +15,5 @@
 - title: Projects
   url: /projects.html
 
-- title: Talks
-  url: /talks.html
-
 - title: Almanac
   url: /almanac.html
-
-- title: CV
-  url: /cv/
