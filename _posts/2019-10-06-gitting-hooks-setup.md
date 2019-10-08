@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finally Gitting Hooks
+title: Gitting Hooks setups
 modified:
 categories:
 excerpt: Perfect workflow for setting up git hooks
