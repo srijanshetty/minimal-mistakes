@@ -12,6 +12,7 @@ comments: true
 I was introduced to the world of open source in college and I've never looked back.
 Here's a list of some tools I can't live without:
 
+- [alacritty](https://github.com/jwilm/alacritty): a better terminal
 - [cli-goodes](https://github.com/srijanshetty/cli-goodies.git): misc tools for daily use.
 - [fasd](https://github.com/clvv/fasd): faster cd.
 - [fzf](https://github.com/junegunn/fzf): too many uses of fzf that I can count.
