@@ -30,14 +30,28 @@
     "husky": "^3.0.8"
   },
   "commitlint": {
-      "extends": [ "@commitlint/config-conventional" ],
-      "rules": {
-          "type-enum": [1, "always", [ "feat", "fix", "docs", "build", "refactor", "revert", "post" ] ]
-      }
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "type-enum": [
+        1,
+        "always",
+        [
+          "feat",
+          "fix",
+          "docs",
+          "build",
+          "refactor",
+          "revert",
+          "post"
+        ]
+      ]
+    }
   },
   "husky": {
-      "hooks": {
-          "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-      }
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
