@@ -6,7 +6,7 @@ categories: technical
 excerpt: dotfiles nirvana using vcsh and mr
 tags: [vcsh, mr, dotfiles, shell, zsh]
 date: 2014-12-27T17:42:20+05:30
-updated 2019-12-20T22:50:20+05:30
+updated: 2019-12-20T22:50:20+05:30
 comments: true
 ---
 
