@@ -10,10 +10,10 @@
   url: /posts/
 
 - title: Categories
-  url: /posts/category-wise.html
+  url: /posts/category-wise/
 
 - title: Projects
-  url: /projects.html
+  url: /projects/
 
 - title: Almanac
-  url: /almanac.html
+  url: /almanac/
