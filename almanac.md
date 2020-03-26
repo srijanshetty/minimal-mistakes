@@ -15,7 +15,9 @@ Here's a list of some tools I can't live without:
 - [alacritty](https://github.com/jwilm/alacritty): a better terminal
 - [cli-goodes](https://github.com/srijanshetty/cli-goodies.git): misc tools for daily use.
 - [fasd](https://github.com/clvv/fasd): use substrings and frecency to cd into folders.
+- [firefox](https://www.mozilla.org/en-US/firefox/): privacy first browsing.
 - [fzf](https://github.com/junegunn/fzf): fuzzy completion everywhere.
+- [pass](https://www.passwordstore.org/): password manager.
 - [tmux](https://github.com/srijanshetty/vcsh-tmux): terminal multiplexer.
 - [vcsh and mr](/technical/vcsh-mr-dotfiles-nirvana/): dotfiles nirvana.
 - [vim](https://github.com/srijanshetty/vim-plug/): no editor compares.
@@ -27,7 +29,7 @@ I'm an obsessive compulsive, and I've dedicated my life to sorting my <strike>sh
 
 - [anki](http://ankisrs.net/): powerful, intelligent flashcards.
 - git: as Torvalds says *source control as the way it should be*.
-- [feedly](http://feedly.com/): it's in vogue for now.
+- [inoreader](http://inoreader.com/): it's in vogue for now.
 - [goodreads](https://www.goodreads.com/srijanshetty): pathetic, but it's all we've got.
 - [google photos](https://photos.google.com): Google scored a homerun with this one.
 - [tasker](https://tasker.joaoapps.com): automate your phone.
