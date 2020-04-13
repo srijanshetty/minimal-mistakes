@@ -28,8 +28,8 @@ Here's a list of some tools I can't live without:
 I'm an obsessive compulsive, and I've dedicated my life to sorting my <strike>shit</strike>  media.
 
 - [anki](http://ankisrs.net/): powerful, intelligent flashcards.
-- git: as Torvalds says *source control as the way it should be*.
 - [inoreader](http://inoreader.com/): it's in vogue for now.
+- git: as Torvalds says *source control as the way it should be*.
 - [goodreads](https://www.goodreads.com/srijanshetty): pathetic, but it's all we've got.
 - [google photos](https://photos.google.com): Google scored a homerun with this one.
 - [tasker](https://tasker.joaoapps.com): automate your phone.
