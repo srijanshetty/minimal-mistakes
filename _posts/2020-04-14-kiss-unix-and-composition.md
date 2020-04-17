@@ -11,8 +11,7 @@ date: 2020-04-14T14:51:36+05:30
 
 As engineers, we go overboard with engineering. Consider a recent **bete noire** was the lack of a good API to get NAV
 for mutual funds in India. [AMFI](https://www.amfiindia.com/), the association for mutual funds in India maintains a
-text file containing all the NAVs at open [here](https://www.amfiindia.com/spages/NAVAll.txt). 
-
+text file containing all the NAVs at open [here](https://www.amfiindia.com/spages/NAVAll.txt). <br/><br/>
 The first attempt I did to query the API was to write a python behemoth to which did a simple search after converting
 the data into json, and is hosted [here](https://github.com/srijanshetty/amfitools).  Pleased with my prowess of python,
 I decided to implement fuzzy-search as well. After spending a few minutes pondering the correct interface of the
