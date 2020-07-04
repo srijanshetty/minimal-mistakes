@@ -3,7 +3,6 @@
 title:            Srijan R. Shetty
 locale:           en_US
 url:              //srijanshetty.in
-# url:               http://localhost:4000
 
 # Jekyll configuration
 
@@ -40,12 +39,12 @@ titlecase: true
 owner:
   name: Srijan R. Shetty
   avatar: bio-photo.jpg
-  bio: "Eccentric, Scribbler, Hacker"
+  bio: ""
   email: srijan.shetty+code@gmail.com
-  disqus-shortname: srijanshetty
+  twitter: srijanshetty
   github: srijanshetty
+  disqus-shortname: srijanshetty
   # facebook: srijanrshetty
-  # twitter: srijanshetty
   google:
     # plus: SrijanRShetty
     analytics: UA-54744194-1
