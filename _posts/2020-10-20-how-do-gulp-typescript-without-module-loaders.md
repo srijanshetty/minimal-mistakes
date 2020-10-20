@@ -3,7 +3,7 @@ layout: post
 title: How Do Gulp Typescript Without Module Loaders
 modified:
 categories: technical
-excerpt:
+excerpt: Using gulp to transpile typescript and use in the browser without module loaders
 tags: [vue, gulp, typescript, module loader, js, ts, gulp-typescript, systemjs]
 image:
   feature:
