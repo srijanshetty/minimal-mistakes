@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
-    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/config-conventional": "^11.0.0",
     "grunt": "^1.2.1",
     "grunt-contrib-clean": "~2.0.0",
     "grunt-contrib-imagemin": "^4.0.0",
@@ -25,7 +25,6 @@
     "grunt-contrib-uglify": "^5.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-gh-pages": "^4.0.0",
-    "grunt-recess": "~1.0.1",
     "grunt-svgmin": "^6.0.1",
     "husky": "^4.2.5"
   },
