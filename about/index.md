@@ -10,7 +10,7 @@ image:
   creditlink: http://srijanshetty.in
 ---
 
-I'm Srijan R. Shetty, an undergraduate from the <a href="http://cse.iitk.ac.in">Department of Computer
+I'm Srijan R. Shetty, Cofounder of <a href="https://allround.club">allround.club</a>, alumni <a href="https://www.goldmansachs.com/">Goldman Sachs<a/>, alumni <a href="http://cse.iitk.ac.in">Department of Computer
 Science and Engineering</a>,<a href="http://iitk.ac.in">Indian Institute of Technology, Kanpur</a>. I'm humbled
 that you consider my introduction worthy of your valuable time.<br/><br/>
 I'm an eccentric who likes to <a href="#">scribble</a> and <a href="https://github.com/srijanshetty">hack on</a> things
