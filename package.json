@@ -16,7 +16,7 @@
     "deploy": "grunt && jekyll build && grunt deploy"
   },
   "devDependencies": {
-    "grunt": "^1.2.1",
+    "grunt": "^1.4.1",
     "grunt-contrib-clean": "~2.0.0",
     "grunt-contrib-imagemin": "^4.0.0",
     "grunt-contrib-jshint": "~2.1.0",
