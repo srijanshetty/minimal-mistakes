@@ -2,7 +2,7 @@
 layout: post
 title: Using TouchId for sudo in Mac OSX
 modified:
-categories: technical
+categories: hacks
 excerpt: "Using TouchId for sudo in Mac OSX"
 tags: [sudo, linux, mac, osx, touchId, cli, commands]
 image:
