@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My first startup allround"
+title: "On Starting allround"
 modified:
 categories: startups
 excerpt: "The rationale behind starting allround, my first startup, and the lessons learned from it."
