@@ -11,6 +11,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.14.6)
@@ -75,14 +76,17 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     titlecase (0.1.1)
     unicode-display_width (1.8.0)
+    webrick (1.9.2)
 
 PLATFORMS
   universal-darwin-24
+  x86_64-linux-gnu
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
   jekyll-sitemap
   octopress (~> 3.0)
+  webrick
 
 BUNDLED WITH
    2.3.21

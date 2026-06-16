@@ -41,3 +41,22 @@ There are trade-offs in privacy and I'm trying to be cognizant of each trade-off
 - [migadu](https://www.migadu.com/): email server, love them for their simplicity.
 - [tailscale](https://tailscale.com/): WireGuard made easy.
 - [ravio](https://raivo-otp.com/): Open source TOTP solution.
+
+**Books**<br/><br/>
+Some of my favorite books in recent years:
+
+- Tomorrow, and Tomorrow, and Tomorrow by Gabrielle Zevin.
+- Lessons in Chemistry by Bonnie Garmus.
+- Outline by Rachel Cusk.
+- Only the Paranoid Survive by Andy Grove.
+- The Phoenix Project by Gene Kim, Kevin Behr, George Spafford.
+- The Goal by Eliyahu M. Goldratt.
+- Going Infinite by Micheal Lewis.
+- The Flash Boys by Micheal Lewis.
+- Letters to a Young Poet by Rainer Maria Rilke.
+- The Illicit Happiness of Other People by Manu Joseph.
+- There is no Antimemetics Division by qntm.
+- Economics for Every Indian by Akash Kumar and Kumar Anand.
+- Famous Last Questions by Sanjana Ramachandran.
+- Shahrukh Khan by Mohar Basu.
+
