@@ -28,7 +28,7 @@ The site is generated into `_site/` (JS is bundled by terser, Sass compiled by d
 
 Add a Markdown file to `_posts/` named `YYYY-MM-DD-my-post-slug.md` with the usual front matter (`layout: post`, `title`, `categories`, `excerpt`, `tags`, ...). The permalink follows the Jekyll scheme `/:categories/:title/` where `:title` is the filename slug.
 
-Code blocks (```` ```lang ```` fences or `{% highlight lang %}` tags) are highlighted with the Ruby [rouge](https://github.com/rouge-ruby/rouge) gem for pixel-identical output with the old Jekyll site; results are cached in `lib/rouge-cache.json` (committed). New/changed code blocks need `ruby` with `gem install rouge -v 3.30.0` available at build time once, to refresh the cache — otherwise they fall back to un-highlighted code with a build warning.
+Code blocks (```` ```lang ```` fences or `{% highlight lang %}` tags) are highlighted with the Ruby [rouge](https://github.com/rouge-ruby/rouge) gem for pixel-identical output with the old Jekyll site; results are cached in `lib/rouge-cache.json` (committed). Ruby is optional: new/changed code blocks that miss the cache are highlighted with a pure-JS fallback (highlight.js mapped onto the rouge CSS classes), so posts can be authored from a web editor with zero local toolchain — the colors are approximate. To upgrade them to exact rouge output, build once on a machine with `ruby` and `gem install rouge -v 3.30.0`; the refreshed cache gets committed with the post.
 
 **Creating New Pages**
 
@@ -46,5 +46,5 @@ Add `some-page.md` (or `some-page/index.md`) at the repository root with `layout
     - sass
     - terser
     - gh-pages
-- Ruby (optional, only to refresh the syntax-highlighting cache)
+- Ruby (optional, only to refresh the exact-rouge syntax-highlighting cache; highlight.js covers cache misses)
     - rouge
