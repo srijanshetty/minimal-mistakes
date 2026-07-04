@@ -1,7 +1,10 @@
 ---
 sitemap: false
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+eleventyImport:
+  collections: ["jekyllPosts"]
 ---
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">{{ site.title }}</title>
@@ -17,10 +20,10 @@ sitemap: false
 </author>
 {% for post in site.posts limit:20 %}
 {% if post.author %}
-  {% assign author = site.data.authors[post.author] %}
-{% else %}
-  {% assign author = site.owner %}
-{% endif %}
+  {%- assign author = site.data.authors[post.author] -%}
+{%- else -%}
+  {%- assign author = site.owner -%}
+{%- endif %}
 <entry>
   <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
   <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
@@ -36,7 +39,7 @@ sitemap: false
   </author>
   <content type="html">
     {{ post.content | xml_escape }}
-    {% include _feed-footer.html %}
+    {% include "_feed-footer.html" %}
   </content>
 </entry>
 {% endfor %}
