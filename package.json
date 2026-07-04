@@ -10,16 +10,22 @@
     "url": "https://github.com/mmistakes/minimal-mistakes/issues"
   },
   "scripts": {
-    "clean": "rm -f assets/js/scripts.min.js",
+    "clean": "rm -rf _site && rm -f assets/js/scripts.min.js",
     "build:js": "node scripts/build-js.mjs",
-    "build:site": "bundle exec jekyll build",
+    "build:site": "eleventy",
     "build": "npm run clean && npm run build:js && npm run build:site",
     "deploy": "npm run build && gh-pages -d _site -b master",
-    "serve": "npm run build:js && bundle exec jekyll serve --livereload",
+    "serve": "npm run build:js && eleventy --serve",
     "watch:js": "node --watch-path=assets/js/plugins --watch-path=assets/js/_main.js scripts/build-js.mjs"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
     "gh-pages": "^6.3.0",
+    "js-yaml": "^5.2.1",
+    "markdown-it": "^14.3.0",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-footnote": "^4.0.0",
+    "sass": "^1.101.0",
     "terser": "^5.43.1"
   }
 }
