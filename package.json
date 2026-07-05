@@ -15,7 +15,7 @@
     "build:js": "node scripts/build-js.mjs",
     "build:site": "eleventy",
     "build": "yarn clean && yarn build:js && yarn build:site",
-    "deploy": "yarn build && gh-pages -d _site -b master",
+    "deploy": "yarn build && gh-pages -d _site -b master -r https://github.com/srijanshetty/srijanshetty.github.io.git",
     "serve": "yarn build:js && eleventy --serve",
     "watch:js": "node --watch-path=assets/js/plugins --watch-path=assets/js/_main.js scripts/build-js.mjs"
   },

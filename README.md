@@ -41,6 +41,8 @@ Add `some-page.md` (or `some-page/index.md`) at the repository root with `layout
 
     $ yarn deploy
 
+Both `yarn deploy` and the GitHub Actions workflow publish the built `_site/` to the `master` branch of [srijanshetty.github.io](https://github.com/srijanshetty/srijanshetty.github.io), which is the repository that actually serves srijanshetty.in. The workflow needs a `PAGES_DEPLOY_TOKEN` Actions secret: a fine-grained PAT with Contents read/write on that repository.
+
 ## Dependencies
 
 - Node (yarn 4 via corepack)

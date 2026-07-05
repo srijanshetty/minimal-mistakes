@@ -1,4 +1,4 @@
-name: Deploy Pages
+name: Deploy Site
 
 on:
   push:
@@ -8,26 +8,24 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: deploy
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Enable Corepack
         run: corepack enable
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: yarn
@@ -38,22 +36,24 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-
-    steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy to srijanshetty.github.io
+        env:
+          DEPLOY_TOKEN: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+        run: |
+          if [ -z "$DEPLOY_TOKEN" ]; then
+            echo "::error::PAGES_DEPLOY_TOKEN secret is not set. Create a fine-grained PAT with contents:read/write on srijanshetty/srijanshetty.github.io and add it as an Actions secret."
+            exit 1
+          fi
+          git clone --depth 1 --branch master \
+            "https://x-access-token:${DEPLOY_TOKEN}@github.com/srijanshetty/srijanshetty.github.io.git" /tmp/deploy
+          rsync -a --delete --exclude .git _site/ /tmp/deploy/
+          cd /tmp/deploy
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to deploy"
+            exit 0
+          fi
+          git commit -m "deploy: srijanshetty/minimal-mistakes@${GITHUB_SHA:0:10}"
+          git push origin master
