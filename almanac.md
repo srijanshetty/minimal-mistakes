@@ -43,7 +43,7 @@ There are trade-offs in privacy and I'm trying to be cognizant of each trade-off
 - [ravio](https://raivo-otp.com/): Open source TOTP solution.
 
 **Books**<br/><br/>
-Some of my favorite books in recent years:
+A few of my favorite books, from recent memory:
 
 - Tomorrow, and Tomorrow, and Tomorrow by Gabrielle Zevin.
 - Lessons in Chemistry by Bonnie Garmus.
@@ -59,4 +59,3 @@ Some of my favorite books in recent years:
 - Economics for Every Indian by Akash Kumar and Kumar Anand.
 - Famous Last Questions by Sanjana Ramachandran.
 - Shahrukh Khan by Mohar Basu.
-
