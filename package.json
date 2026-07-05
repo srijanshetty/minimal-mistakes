@@ -9,21 +9,33 @@
   "bugs": {
     "url": "https://github.com/mmistakes/minimal-mistakes/issues"
   },
+  "packageManager": "yarn@4.17.0+sha512.c2957de2f9025ab14d63b24d0d8be1f1655810e22c341042c27f7ecd017b180ec12db73d69ac366d71b304ef9f069349ce462de96f04f8f1da317f4f762c95ae",
   "scripts": {
     "clean": "rm -rf _site && rm -f assets/js/scripts.min.js",
     "build:js": "node scripts/build-js.mjs",
     "build:site": "eleventy",
-    "build": "npm run clean && npm run build:js && npm run build:site",
-    "deploy": "npm run build && gh-pages -d _site -b master",
-    "serve": "npm run build:js && eleventy --serve",
+    "build": "yarn clean && yarn build:js && yarn build:site",
+    "deploy": "yarn build && gh-pages -d _site -b master",
+    "serve": "yarn build:js && eleventy --serve",
     "watch:js": "node --watch-path=assets/js/plugins --watch-path=assets/js/_main.js scripts/build-js.mjs"
+  },
+  "resolutions": {
+    "markdown-it": "14.2.0",
+    "@11ty/eleventy/js-yaml": "4.1.1",
+    "gray-matter/js-yaml": "3.14.1",
+    "linkify-it": "5.0.1",
+    "iso-639-1": "3.1.5",
+    "picomatch@npm:^4.0.3": "4.0.4",
+    "picomatch@npm:^4.0.4": "4.0.4",
+    "bcp-47": "2.1.0",
+    "range-parser": "1.2.1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
     "gh-pages": "^6.3.0",
     "highlight.js": "^11.11.1",
-    "js-yaml": "^5.2.1",
-    "markdown-it": "^14.3.0",
+    "js-yaml": "4.1.1",
+    "markdown-it": "14.2.0",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-footnote": "^4.0.0",
     "sass": "^1.101.0",

@@ -178,9 +178,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('CNAME');
   eleventyConfig.addPassthroughCopy('keybase.txt');
   eleventyConfig.addPassthroughCopy('googlecb25530ac5881c68.html');
-  // Jekyll copied these too (they were not in its exclude list), so keep the
+  // Jekyll copied this too (it was not in its exclude list), so keep the
   // output inventory identical.
-  eleventyConfig.addPassthroughCopy('package-lock.json');
   eleventyConfig.addPassthroughCopy('scripts/build-js.mjs');
 
   return {
