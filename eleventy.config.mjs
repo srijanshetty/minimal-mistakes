@@ -62,6 +62,7 @@ export default function (eleventyConfig) {
   eleventyConfig.ignores.add('_templates/**');
   eleventyConfig.ignores.add('vendor/**');
   eleventyConfig.ignores.add('scripts/**');
+  eleventyConfig.ignores.add('ssh/**');
   eleventyConfig.ignores.add('googlecb25530ac5881c68.html');
 
   // Some front matter uses Ruby-style date strings (e.g.
