@@ -11,10 +11,8 @@ comments: true
 date: 2026-08-13T00:30:00-04:00
 ---
 
-To set context, I'm the co-founder CTO of a company with a flat hierarchy of 25 engineers reporting to me (everyone runs their own show so it's not that difficult). 
-
-I've never felt more productive in my life. 
-
+To set context, I'm the co-founder CTO of a company with a flat hierarchy of 25 engineers reporting to me (everyone runs their own show so it's not that difficult).<br/><br/>
+I've never felt more productive in my life.<br/><br/>
 And before all the engineers wince at a co-founder writing slop code, let me preface that I don't mess around with the core feature set, I work in the periphery where I have always loved working - platforms, automations, devops.
 
 > My core KPI in 2025 was how to make the engineers more productive.
@@ -24,10 +22,8 @@ In 2026, this translates to building safeguards and perimeters which provide fas
 
 > My mantra is pristine core. Slop shell.
 
-Having agents at my disposal to build to build slop guard-rails gives me glorious purpose.
-
-The things I've been able to build to ensure that we keep shipping without falling under the weight of agent velocity feels unreal - custom audit logging agents, perf agents, PII scanners, debuggers, E2E testers - you think it and we have some kind of implementation of the same.
-
+Having agents at my disposal to build to build slop guard-rails gives me glorious purpose.<br/><br/>
+The things I've been able to build to ensure that we keep shipping without falling under the weight of agent velocity feels unreal - custom audit logging agents, perf agents, PII scanners, debuggers, E2E testers - you think it and we have some kind of implementation of the same.<br/><br/>
 I want to give some examples of agents which were not possible when writing code wasn't effective cheap, and I would never spend time in writing throwaway code.
 
 #### Stress Test Agent
