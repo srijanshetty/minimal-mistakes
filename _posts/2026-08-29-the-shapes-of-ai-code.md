@@ -23,6 +23,6 @@ Since this code doesn't run in production and doesn't impact the critical sectio
 
 ### Side Stuff:
 Nothing critical here, so AI breaks all hell lose.<br/><br/>
-I don't see the code, I just care about the outcome and if it succeeds in getting it across the line.<br/><br/><br/>
-My usual workflow has been defining the test cases first and then letting the AI fit the code to match the test cases.<br/><br/><br/>
+I don't see the code, I just care about the outcome and if it succeeds in getting it across the line.<br/><br/>
+My usual workflow has been defining the test cases first and then letting the AI fit the code to match the test cases.<br/><br/>
 This seems like a pragmatic approach which allows enough bandwidth to go crazy with AI without going on an all out rampage with business critical code.
