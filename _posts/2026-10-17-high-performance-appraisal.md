@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ""
-modified: Appraisals for High Performance Teams
+title: "Appraisals for High Performance Teams"
+modified: 
 categories: technical
-excerpt: "How to think about your own performance in a high performance team"
+excerpt: "How to think about your own appraisals in a high performance team"
 tags: [technical, appraisals, coding, performance, reviews,]
 image:
   feature:
